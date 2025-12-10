@@ -1,0 +1,490 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+        <div class="header-container">
+          <img width="64" height="64" src="images/family .png" alt="home--v1"/>
+      <h1>Dream Homes Real Estate</h1>
+    </div>
+      <nav>
+
+
+        <!-- navbar -->
+     <ul id="nav-links"> 
+      <li><a href="#home">Home</a></li>
+      <li><a href="#properties">Properties</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="menu-btn" onclick="toggleMenu()"></div>
+  </nav>
+
+         <!-- icons -->
+      <div class="header-bottom-actions">
+
+  <button class="header-bottom-actions-btn">
+    <ion-icon name="search-outline"></ion-icon>
+    <span>Search</span>
+  </button>
+
+  <button class="header-bottom-actions-btn">
+    <ion-icon name="person-outline"></ion-icon>
+    <span>Profile</span>
+  </button>
+
+  <button class="header-bottom-actions-btn">
+    <ion-icon name="cart-outline"></ion-icon>
+    <span>Cart</span>
+  </button>
+
+</div>
+
+  </header>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>Find Your Perfect Home</h1>
+    <p>Discover luxury apartments, villas, and independent houses in prime locations. Your dream home awaits with modern amenities and comfort.</p>
+    <div class="hero-buttons">
+      <a href="#propertyList" class="explore-btn">Explore Properties</a>
+      <a href="#contact" class="explore-btn secondary-btn">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+
+  <div class="home" id="home">
+  <h2>Welcome to Dream Homes Real Estate</h2>
+  <p>Your trusted partner in finding the perfect property.</p>
+
+  <p>
+    We help you discover premium residential and commercial spaces across top 
+    locations. Whether you're searching for a cozy apartment, a luxurious villa, 
+    or an investment opportunity, our expert team ensures a smooth and transparent journey.
+  </p>
+
+  <!-- HOME SECTION -->
+    <div class="Gallery">
+      <img src="images/h1.webp" class="h1">
+      <img src="images/h2.webp" class="h2">
+      <img src="images/h3.webp" class="h3">
+    </div>
+  </div>
+
+  <!-- PROPERTIES SECTION -->
+  <div class="home1" id="properties">
+    <h1>Properties</h1>
+    <h2>Luxury and Premium Villas</h2>
+    <div class="properties" id="propertyList"></div>
+  </div>
+
+  <!-- INDEPENDENT HOUSES -->
+  <div class="home2" id="properties1">
+    <h2>Independent Houses</h2>
+    <div class="properties" id="propertyList1"></div>
+  </div>
+
+  <!-- SERVICES SECTION -->
+
+        <section class="services" id="services">
+        <div class="container">
+
+          <p class="section-subtitle">Services</p>
+
+          <h2 class="h2 section-title">Our Main Focus</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img width="140" height="140" src="images/buy .png" alt="home"/>
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img width="150" height="150" src="images/real estatee.png" alt="sell-property--v2"/>
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                <img width="150" height="150" src="images/real estate.png" alt="sell a home">
+               </div>
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="features">
+        <div class="container">
+
+          <p class="section-subtitle">Our Aminities</p>
+
+          <h2 class="h2 section-title">Building Aminities</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="car.png"></ion-icon>
+                  <img width="40" height="40" src="images/car.png" alt="parking--v1"/>
+                </div>
+
+                <h3 class="card-title">Parking Space</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                  <img width="40" height="40" src="images/swimming.png" alt="swimming-pool--v1"/>
+                </div>
+
+                <h3 class="card-title">Swimming Pool</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  <img width="40" height="40" src="images/Security.png" alt="private-security--v1"/>
+                </div>
+
+                <h3 class="card-title">Private Security</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="fitness-outline"></ion-icon>
+                  <img width="40" height="40" src="images/medical.png" alt="medical-center--v1"/>
+                </div>
+
+                <h3 class="card-title">Medical Center</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                  <img width="40" height="40" src="images/library.png" alt="library-area--v1"/>
+                </div>
+
+                <h3 class="card-title">Library Area</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bed-outline"></ion-icon>
+                  <img width="40" height="40" src="images/beds.png" alt="king-size-beds--v1"/>
+                </div>
+
+                <h3 class="card-title">King Size Beds</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                  <img width="40" height="40" src="images/smart home.png" alt="smart-homes--v1"/>
+                </div>
+
+                <h3 class="card-title">Smart Homes</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="football-outline"></ion-icon>
+                  <img width="40" height="40" src="images/playground.png" alt="kids-playland--v1"/>
+                </div>
+
+                <h3 class="card-title">Kid’s Playland</h3>
+                <div class="card-btn">
+                  <ion-icon name="arrowforward.png"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+  <!-- ABOUT SECTION -->
+<div class="about-us" id="about">
+  <h2>About Us</h2>
+  <p>
+    Dream Homes Real Estate is committed to providing top-notch real estate services. 
+    With years of experience in the industry, we pride ourselves on our customer-centric approach, 
+    ensuring every client finds their perfect home with ease and confidence.
+  </p>
+  <p>
+    Our team of expert real estate professionals specializes in luxury apartments, villas, 
+    and independent houses in prime locations. We offer personalized property consultation, 
+    market insights, and seamless transaction management to make your home buying journey smooth and enjoyable.
+  </p>
+  <p>
+    <strong>Our Mission:</strong> To create happy homeowners by delivering trusted real estate solutions with integrity, transparency, and care.
+  </p>
+  <p>
+    <strong>Our Vision:</strong> To be the most reliable and client-focused real estate company in the region, providing exceptional value and service.
+  </p>
+  <a href="#contact" class="explore-btn">Get in Touch</a>
+</div>
+
+
+  <!-- CONTACT SECTION -->
+<div class="contact-us" id="contact">
+  <h2>Contact Us</h2>
+  <p>Have questions or need assistance? Reach out to us!</p>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:info@dreamhomes.com">info@dreamhomes.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+    <p><strong>Address:</strong> 123 Dream Homes Street, Gachibowli, Hyderabad, India</p>
+    <p><strong>Office Hours:</strong> Mon – Sat, 9:00 AM – 6:00 PM</p>
+  </div>
+
+  <div class="contact-form">
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="explore-btn">Send Message</button>
+    </form>
+  </div>
+</div>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Dream Homes Real Estate</h3>
+      <p>Providing top-notch real estate services and helping you find your perfect home since 2010.</p>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: <a href="mailto:info@dreamhomes.com">info@dreamhomes.com</a></p>
+      <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+      <p>Address: 123 Dream Street, Hyderabad, India</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <a href="#" target="_blank">Facebook</a> |
+      <a href="#" target="_blank">Instagram</a> |
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 Dream Homes Real Estate | All Rights Reserved
+  </div>
+</footer>
+
+
+  <!-- LUXURY PROPERTIES SCRIPT -->
+  <script>
+const properties = [
+  {
+    img: "https://tse1.mm.bing.net/th/id/OIP.GKxTjgKH-AbWoJVFyCvRVQHaFj?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+    title: "3BHK Luxury Villa",
+    price: "₹1.8 Cr",
+    location: "Gachibowli, Hyderabad"
+  },
+  {
+    img: "https://www.apartments.com/blog/sites/default/files/styles/large/public/image/2023-06/ParkLine-apartment-in-Miami-FL.jpg?itok=wuPUc6GK",
+    title: "2BHK Apartment",
+    price: "₹85 Lakhs",
+    location: "Madhapur, Hyderabad"
+  },
+  {
+    img: "https://th.bing.com/th/id/OIP.usdFNywvFlToaw0Ir37pTQHaEt?w=289&h=184",
+    title: "4BHK Premium Villa",
+    price: "₹2.5 Cr",
+    location: "Kondapur, Hyderabad"
+  }
+];
+
+const listContainer = document.getElementById("propertyList");
+
+properties.forEach(p => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <img src="${p.img}" alt="Property Image" />
+    <div class="card-content">
+      <h3>${p.title}</h3>
+      <p class="price">${p.price}</p>
+      <p>${p.location}</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+  `;
+
+  listContainer.appendChild(card);
+});
+</script>
+
+
+  <!-- INDEPENDENT HOUSES SCRIPT -->
+  
+  <script>
+const properties1 = [
+  {
+    img: "https://tse3.mm.bing.net/th/id/OIP.uo7Fq3WTpN_k-IQJqt5gnwHaDt",
+    title: "Independent House",
+    price: "₹1.2 Cr",
+    location: "Manikonda, Hyderabad"
+  },
+  {
+    img: "https://th.bing.com/th/id/OIP.PZ7nMGqkwLpjXo2tymz2PwHaDU",
+    title: "Independent 3BHK House",
+    price: "₹95 Lakhs",
+    location: "Miyapur, Hyderabad"
+  }
+];
+
+const listContainer1 = document.getElementById("propertyList1");
+
+properties1.forEach(p => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <img src="${p.img}" alt="Property Image" />
+    <div class="card-content">
+      <h3>${p.title}</h3>
+      <p class="price">${p.price}</p>
+      <p>${p.location}</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+  `;
+
+  listContainer1.appendChild(card);
+});
+</script>
+
+
+</body>
+</html>
