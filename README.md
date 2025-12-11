@@ -3,8 +3,4 @@ Discover your dream home with our modern and trusted real estate platform. Brows
 
 This is `inline code`.
 
-<button onclick="window.location.href='http://127.0.0.1:5500/index.html'">
-  Live Demo
-</button>
-
-
+<a href="http://127.0.0.1:5500/index.html"><strong>->Live demo</strong>
