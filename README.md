@@ -4,4 +4,4 @@ Discover your dream home with our modern and trusted real estate platform. Brows
 This is `inline code`.
 
 <!-- <a href="http://127.0.0.1:5500/index.html" target="_new"><strong>->Live demo</strong> -->
-<a href="http://127.0.0.1:5500/index.html" target="_blank"><strong>->Live demo</strong></a>
+<a href="http://127.0.0.1:5500/index.html" target="_new"><strong>->Live demo</strong></a>
